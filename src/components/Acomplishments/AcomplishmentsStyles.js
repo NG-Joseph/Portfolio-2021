@@ -30,6 +30,28 @@ export const BlogBoxes = styled.div`
   overflow-x: auto;
   overflow-y: hidden;
 
+  ::-webkit-scrollbar {
+    width: 20px;
+    height: 7px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+ 
+  ::-webkit-scrollbar-thumb {
+    background:  hsl(204,23.8%,95.9%);  
+    border-radius: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background:  hsl(34.9,98.6%,72.9%);
+  }
+
   @media ${props => props.theme.breakpoints.md}{
     gap: 16px;
     margin: 20px 0 32px;
