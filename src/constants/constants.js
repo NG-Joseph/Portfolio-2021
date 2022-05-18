@@ -3,7 +3,7 @@ export const projects = [
     title: 'RenderFam (Early Development)',
     description: "An open-source P2P rendering plugin & platform for Blender which allows Blender users to rent out their computer resources to assist others' rendering or easily get rendering services from a pool of available users and their machines via WLAN or Cloud.",
       image: '/images/RENDERFAM.png',
-      tags: [ ' Python', ' React', ' Flask/Express'],
+      tags: [ ' Python', 'Javascript', ' Flask'],
     source: 'https://github.com/ng-joseph/RenderFam-blender-plugin',
     visit: '/#projects',
     id: 0,
@@ -19,12 +19,12 @@ export const projects = [
   },
   
   {
-    title: 'EasyCMS',
-    description: "Boilerplate NestJS template for setting up a user or content management system with Google and Facebook Authentication",
-      image: '/images/easy-cms.png',
-      tags: ['NestJs', 'React', 'TypeScript', 'PostgreSQL'],
-    source: 'https://github.com/NG-Joseph/nest-cms',
-    visit: '/#projects',
+    title: 'Pass',
+    description: "Gives you access to all your favourite events and experiences",
+      image: '/images/pass.png',
+      tags: ['NestJs', 'React', 'Firebase', 'PostgreSQL'],
+    source: '/#projects',
+    visit: 'https://pass-web-demo.netlify.app/',
     id: 2,
   },
  
@@ -44,6 +44,7 @@ export const TimeLineData = [
   { year: 2018, text: 'Joined Pan Atlantic University, Lagos', },
   { year: 2019, text: 'Worked as a freelance web developer & programming instructor' },
   { year: 2020, text: 'Joined a startup revolutionizing Ecommerce and Loyalty management - Ugum ', },
-  { year: 2020, text: 'Started creating games with Unity', },
+  { year: 2020, text: 'Delved into the world of 3D and Game Dev', },
   { year: 2021, text: 'Creating Renderfam', },
+  { year: 2022, text: 'Building Everywear: an application for AI-driven fashion suggestion', },
 ];
